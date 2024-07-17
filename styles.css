@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; /* Remove padding from body */
+    transition: background-color 0.3s, color 0.3s;
+     background-image: url('images/Waldo\ -\ 2\'\ x\ 3\'.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #FA8072; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar img {
+    width: 50px;
+    height: 50px;
+}
+
+.topbar {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(to right, #592900, #BF5700);
+    width: 100%; /* Make the topbar full width */
+    padding: 10px 20px; /* Add some padding */
+    justify-content: space-between; /* Spread out the content */
+}
+
+.topbar ul {
+    display: flex;
+    align-items: center; /* Center align the items vertically */
+    margin-left: 0; /* Remove the left margin */
+}
+
+.topbar ul a {
+    padding: 10px; /* Reduce padding to fit more items */
+    text-decoration: none;
+    color: white; /* Make the text visible on the dark background */
+}
+
+header h3 {
+    margin-left: 0; /* Remove left margin */
+    padding: 10px;
+    color: white; /* Make the text visible on the dark background */
+}
+main{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15%;
+}
+input{
+    width: 400px;
+    height: 50px;
+    margin-right: 30px;
+    border-radius: 10px;
+    background-color: #7B372F;
+    opacity: 0.3;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #7B372F;
+    opacity: 0.7;
+}
+#about-us{
+    margin-top: 30%;
+    font-size: large;
+    padding-top: 60px;
+}
+footer{
+    background-color: black;
+    opacity: 0.3;
+}
